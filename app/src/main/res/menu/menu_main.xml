@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_set_time"
+        android:icon="@drawable/sync_time"
+        android:title="@string/action_set_time"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_connect_to_device"
+        android:icon="@drawable/bluetooth_inactive"
+        app:showAsAction="always"
+        android:title="@string/action_connect_bluetooth"/>
+</menu>
